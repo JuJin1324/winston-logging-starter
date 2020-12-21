@@ -1,0 +1,19 @@
+{
+  "name": "winston-logging-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ju-Jin Yoo",
+  "license": "MIT",
+  "dependencies": {
+    "app-root-path": "^3.0.0",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "process": "^0.11.10",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.0"
+  }
+}
