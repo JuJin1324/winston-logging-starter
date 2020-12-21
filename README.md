@@ -1,6 +1,20 @@
 # winston-logging-starter
 > node.js 에서 사용하는 로깅 모듈인 winston 사용을 정리
 
+## 실행
+> 터미널에서 git clone 후 프로젝트 디렉터리로 이동  
+> `npm i` 를 통해서 이 프로젝트에서 사용한 모든 모듈 다운  
+> 터미널에서 `node index.js` 혹은 webstorm 이나 idea 같은 Jetbrain IDE 사용 중이면 저장되어 있는 실행 환경 INDEX.JS 실행  
+
+### production 실행
+> * Jetbrain IDE: CMD(CTRL) + SHIFT + A 에서 Edit Configurations 들어가서 INDEX.JS 실행 환경에 있는
+> Environment variables 에 `NODE_ENV=production` 넣은 후 Apply 후 Run    
+>   
+> * 터미널 실행: `NODE_ENV=production node index.js` 으로 실행 후 CTRL + C 로 종료 후 log 디렉터리 생성된 것 확인.
+> 
+> 주의: Jetbrain IDE 사용 시 log 디렉터리 아래 생성된 log 파일이 안보일 수 있음. 직접 디렉터리를 열어서 확인해보면 
+> log 파일이 정상 생성 되어 있는 것을 확인 할 수 있음.
+
 ## winston
 > node.js 에서 사용하는 로깅 모듈  
 > 설치: `npm i winston`   
